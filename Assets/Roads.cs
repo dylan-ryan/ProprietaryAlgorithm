@@ -30,7 +30,7 @@ public class RoadPlacer : MonoBehaviour
 
             if (Random.value > 0.7f)
             {
-                direction = directions[Random.Range(0, directions.Length)];
+                direction = directions[Random.Range(0, directions.Length)]; 
             }
             currentPos += direction;
         }
